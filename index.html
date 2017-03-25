@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Gem style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  	
+	<title>TriTechathlon</title>
+	<link rel="icon" href="favi.png" type="image/x-icon"/>
+
+		<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+
+		<style type="text/css">
+			body {
+				font-family: Acme;
+				background: #8e9eab; /* fallback for old browsers */
+				background: -webkit-linear-gradient(to left, #8e9eab , #eef2f3); /* Chrome 10-25, Safari 5.1-6 */
+				background: linear-gradient(to left, #8e9eab , #eef2f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+			}
+
+			#head {
+				font-size: 30px;
+				color: white;
+				text-decoration: none;
+			}
+
+			#desp {
+				color: black;
+				font-size: 30px;
+				padding-top: 30%;
+				text-align: justify;
+			}
+
+			#desp b {
+				color: #;
+				font-size: 32px;
+			}
+
+			#content {
+				margin: 0 auto;
+				text-align: center;
+				padding-left: 30%;
+			}
+
+			#content1 {
+				margin: 0 auto;
+				text-align: center;
+			}
+		</style>
+</head>
+<body>
+	<header role="banner">
+		<div id="cd-logo"><a href="#0" style="text-decoration:none;"><h2 id="head"><i class="fa fa-flag" aria-hidden="true"></i>&nbsp&nbsp&nbspTri-Techathlon</h2></a></div>
+
+		<nav class="main-nav">
+			<ul>
+				<!-- inser more links here -->
+				<li><a class="cd-signin" href="#0">Log In</a></li>
+				<li><a class="cd-signup" href="#0">Sign up</a></li>
+				<li><a class="cd-about" href="about.html">About</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="cd-user-modal"> <!-- this is the entire modal form, including the background -->
+		<div class="cd-user-modal-container"> <!-- this is the container wrapper -->
+			<ul class="cd-switcher">
+				<li><a href="#0">Log In</a></li>
+				<li><a href="#0">Sign Up</a></li>
+			</ul>
+
+			<div id="cd-login"> <!-- log in form -->
+				<form class="cd-form">
+					<p class="fieldset">
+						<label class="image-replace cd-email" for="signin-email" name="email_l">E-mail</label>
+						<input class="full-width has-padding has-border" id="signin-email" type="email" placeholder="E-mail">
+						<span class="cd-error-message">Error message here!</span>
+					</p>
+
+					<p class="fieldset">
+						<label class="image-replace cd-password" for="signin-password" name="passwd_l">Password</label>
+						<input class="full-width has-padding has-border" id="signin-password" type="text"  placeholder="Password">
+						<a href="#0" class="hide-password">Hide</a>
+						<span class="cd-error-message">Error message here!</span>
+					</p>
+
+					<p class="fieldset">
+						<input type="checkbox" id="remember-me" checked>
+						<label for="remember-me">Remember me</label>
+					</p>
+
+					<p class="fieldset">
+						<a href="scorecard.html"><input class="full-width" type="submit" value="Login"></a>
+					</p>
+				</form>
+				
+				<p class="cd-form-bottom-message"><a href="#0">Forgot your password?</a></p>
+				<!-- <a href="#0" class="cd-close-form">Close</a> -->
+			</div> <!-- cd-login -->
+
+			<div id="cd-signup"> <!-- sign up form -->
+				<form class="cd-form">
+					<p class="fieldset">
+						<label class="image-replace cd-username" for="signup-username" name="fullname">Full name</label>
+						<input class="full-width has-padding has-border" id="signup-username" type="text" placeholder="Full name">
+						<span class="cd-error-message">Error message here!</span>
+					</p>
+
+					<p class="fieldset">
+						<label class="image-replace cd-email" for="signup-email" name="email">E-mail</label>
+						<input class="full-width has-padding has-border" id="signup-email" type="email" placeholder="E-mail">
+						<span class="cd-error-message">Error message here!</span>
+					</p>
+
+					<p class="fieldset">
+						<label class="image-replace cd-password" for="signup-password" name="institute">Insitute name</label>
+						<input class="full-width has-padding has-border" id="signup-password" type="text"  placeholder="Insitute name">
+						<span class="cd-error-message">Error message here!</span>
+					</p>
+
+					<p class="fieldset">
+						<label class="image-replace cd-password" for="signin-password" name="passwd">Password</label>
+						<input class="full-width has-padding has-border" id="signin-password" type="text"  placeholder="Password">
+						<a href="#0" class="hide-password">Hide</a>
+						<span class="cd-error-message">Error message here!</span>
+					</p>
+
+
+					<p class="fieldset">
+						<input class="full-width has-padding" type="submit" value="Sign Up">
+					</p>
+				</form>
+
+				<!-- <a href="#0" class="cd-close-form">Close</a> -->
+			</div> <!-- cd-signup -->
+
+			<div id="cd-reset-password"> <!-- reset password form -->
+				<p class="cd-form-message">Lost your password? Please enter your email address. You will receive a link to create a new password.</p>
+
+				<form class="cd-form">
+					<p class="fieldset">
+						<label class="image-replace cd-email" for="reset-email">E-mail</label>
+						<input class="full-width has-padding has-border" id="reset-email" type="email" placeholder="E-mail">
+						<span class="cd-error-message">Error message here!</span>
+					</p>
+
+					<p class="fieldset">
+						<input class="full-width has-padding" type="submit" value="Reset password">
+					</p>
+				</form>
+
+				<p class="cd-form-bottom-message"><a href="#0">Back to log-in</a></p>
+			</div> <!-- cd-reset-password -->
+			<a href="#0" class="cd-close-form">Close</a>
+		</div> <!-- cd-user-modal-container -->
+	</div> <!-- cd-user-modal -->
+
+	<div id="content">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-6">
+				<div class="row">
+					<div class="col-lg-4 col-md-4" style="font-size:150px;padding-top:30%;padding-right:20%;">
+
+						<i class="fa fa-laptop" aria-hidden="true"></i><br>
+						<h2 style="font-size:33px;">DEVELOP</h2>
+					</div>
+					<div class="col-lg-4 col-md-4" style="font-size:150px;padding-top:30%;padding-left:5%;">
+						<i class="fa fa-terminal" aria-hidden="true"></i><br>
+						<h2 style="font-size:33px;">CODE</h2>
+					</div>
+					<div class="col-lg-4 col-md-4" style="font-size:150px;padding-top:30%;padding-left:10%;">
+						<i class="fa fa-pencil" aria-hidden="true"></i><br>
+						<h2 style="font-size:33px;">DESIGN</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<br><br>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/main.js"></script> <!-- Gem jQuery -->
+</body>
+</html>
